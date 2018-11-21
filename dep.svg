@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Board-Report-Copy-4" transform="translate(-212.000000, -175.000000)">
+            <g id="Group-21" transform="translate(187.000000, 151.000000)">
+                <g id="Group-8" transform="translate(25.000000, 24.000000)">
+                    <circle id="Oval" fill="#EDEDED" cx="19" cy="19" r="19"></circle>
+                    <g id="ic_swipe" transform="translate(8.000000, 6.000000)" fill="#FFFFFF" stroke="#000000" stroke-linecap="round" stroke-linejoin="round">
+                        <g id="Group" transform="translate(2.000000, 3.000000)">
+                            <path d="M5.28372067,5 L3.51915442,11.5854509 C3.23217625,12.656468 3.86745308,13.7553949 4.93751068,14.042116 L14,16.4704027 L14,16.9941413 C14,18.1019465 13.1029399,19 11.9941413,19 L2.00585866,19 C0.898053512,19 0,18.1029399 0,16.9941413 L0,7.00585866 C0,5.89805351 0.897060126,5 2.00585866,5 L5.28372067,5 Z" id="Combined-Shape" stroke-width="2"></path>
+                            <rect id="Rectangle-Copy-3" stroke-width="2" transform="translate(11.573214, 8.573214) rotate(-345.000000) translate(-11.573214, -8.573214) " x="4.5732141" y="1.5732141" width="14" height="14" rx="2"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

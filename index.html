@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/sunburst.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+      <nav class="navbar navbar-light bg-light bg-gradient">
+          <a class="navbar-brand" href="#"><img src="logo.svg"/></a>
+          <h6 class="mr-auto ml-4 font-weight-bold mb-0">ORGANIZARIONAL PERIORITIES<br><small>Board Details</small></h6>
+        </nav>
+        
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mt-3">
+          <div class="row">
+            <div class="col-6">
+              <img src="organization.svg"/>
+              <div class="dropdown department-menu-group btn-group ml-3">
+                  <button class="btn btn-outline-dark append-text" type="button">
+                      Objectives
+                    </button>
+                    <button type="button" class="btn btn-lg btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="sr-only">Toggle Dropdown</span>
+                      </button>
+                  <ul class="dropdown-menu department-menu" aria-labelledby="dropdownMenu1">
+                      <li><a class="dropdown-item" href="#" data-value="hr"><span>HR DEPARTMENT</span><br><small>HR Department Board</small></a></li>
+                      <li><a class="dropdown-item" href="#" data-value="finance"><span>FINANCE DEPARTMENT</span><br><small>HR Department Board</small></a></li>
+                      <li><a class="dropdown-item" href="#" data-value="media"><span>MEDIA AND PR</span><br><small>HR Department Board</small></a></li>
+                      <li><a class="dropdown-item" href="#" data-value="pm"><span>PM Office</span><br><small>HR Department Board</small></a></li>
+                      <li><a class="dropdown-item" href="#" data-value="director"><span>DIRECTOR OFFICE</span><br><small>AlRumaithy Board</small></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="dropdown float-right">
+                    <button class="btn btn-light btn-transparent dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <img src="download.svg"/>
+                    </button>
+                    <div class="dropdown-menu btn-download" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" id="btnPdf" href="#">Print chart</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" id="btnPdf" href="#">Download PNG image</a>
+                      <a class="dropdown-item" id="btnPdf" href="#">Download JPEG image</a>
+                      <a class="dropdown-item" id="btnPdf" href="#">Download PDF document</a>
+                      <a class="dropdown-item" id="btnPdf" href="#">Download SVG vector image</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          
+            </div>
+            <div class="col-12">
+          <div id="container"></div>
+        </div>
+      </div>
+    </div>
+      <script src="script.js"></script>
+  </body>
+  
+</html>
