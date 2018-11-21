@@ -228,7 +228,7 @@ var data = [{
 ];
 
 // Splice in transparent for the center circle
-Highcharts.getOptions().colors.splice(0, 0, '#f7f7f7');
+Highcharts.getOptions().colors.splice(0, 0, 'transparent');
  //Highcharts.getOptions().colors.splice(1, 0, '#decbe4');
 Highcharts.getOptions().colors.splice(2, 0, '#ccebc5'); 
  
