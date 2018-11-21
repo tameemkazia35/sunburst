@@ -265,7 +265,7 @@ var chart = Highcharts.chart('container', {
                 textOutline: 0,
                 fontSize: 8
             },
-            rotationMode: 'parallel',
+            rotationMode: 'vertical',
             filter: {
                 property: 'innerArcLength',
                 operator: '>',
