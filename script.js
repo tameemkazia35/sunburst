@@ -275,7 +275,7 @@ var chart = Highcharts.chart('container', {
         levels: [{
             level: 1,
             levelIsConstant: false,
-            
+            borderWidth: 3,
             dataLabels: {
                 
                 filter: {

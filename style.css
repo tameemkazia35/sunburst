@@ -91,3 +91,7 @@ background: transparent !important;
     padding: 12px 12px 12px 60px;
     position: relative;
 }
+
+.highcharts-credits {
+    display: none;
+}
