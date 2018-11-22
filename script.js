@@ -1,11 +1,11 @@
 
 var data = [{
-    'id': '0.0',
+    'id': '1',
     'parent': '',
     'name': 'الخطة الإستراتيجية 2018-2020'
 }, {
     'id': '1.1',
-    'parent': '0.0',
+    'parent': '1',
     'name': 'خدمات تقاعدية تثري تجربة المتعاملين',
     //'value': 50
 }, 
@@ -228,7 +228,7 @@ var data = [{
 ];
 
 // Splice in transparent for the center circle
-Highcharts.getOptions().colors.splice(0, 0, 'transparent');
+Highcharts.getOptions().colors.splice(0, 0, '#f9f9f9');
  //Highcharts.getOptions().colors.splice(1, 0, '#decbe4');
 Highcharts.getOptions().colors.splice(2, 0, '#ccebc5'); 
  
