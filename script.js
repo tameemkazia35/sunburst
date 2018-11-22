@@ -257,9 +257,8 @@ var chart = Highcharts.chart('container', {
         data: data,
         allowDrillToNode: true,
         cursor: 'pointer',
-        borderWidth: 0,
         dataLabels: {
-            format: '{point.name}',
+            format: '{point.id}',
             style: {
                 fontWeight: 'light',
                 textOutline: 0,
@@ -275,7 +274,6 @@ var chart = Highcharts.chart('container', {
         levels: [{
             level: 1,
             levelIsConstant: false,
-            borderWidth: 3,
             dataLabels: {
                 
                 filter: {
