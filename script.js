@@ -273,8 +273,10 @@ var chart = Highcharts.chart('container', {
         },
         levels: [{
             level: 1,
+
             levelIsConstant: false,
             dataLabels: {
+                format: '{point.name}',
                 rotationMode: 'parallel',
                 filter: {
                     property: 'outerArcLength',
@@ -285,9 +287,9 @@ var chart = Highcharts.chart('container', {
         }, {
             level: 2,
             colorByPoint: true,
-            dataLabels:{
-                rotationMode: 'parallel',
-            }
+            // dataLabels:{
+            //     rotationMode: 'parallel',
+            // }
         },
         {
             level: 3,
