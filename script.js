@@ -230,10 +230,8 @@ Highcharts.getOptions().colors.splice(2, 0, '#ccebc5');
 });  */
  jQuery.getJSON('json/orgnization.json', function(_data) {
                data = _data;
-               // var chart = new Highcharts.Chart(options);
-            });
-			
-var chart = Highcharts.chart('container', {
+              // var chart = new Highcharts.Chart(options);
+			  var chart = Highcharts.chart('container', {
 
     chart: {
         height: '100%'
@@ -330,6 +328,9 @@ var chart = Highcharts.chart('container', {
         pointFormat: '<b>{point.name}</b> is <b>{point.value} %</b>'
     }
 });
+
+});
+			
 
 $("#btnPrint").on('click', function (event) {
 
