@@ -1,5 +1,5 @@
 
-var data = [{
+/*var data = [{
     'id': '1',
     'parent': '',
     'name': 'الخطة الإستراتيجية 2018-2020'
@@ -7,15 +7,8 @@ var data = [{
     'id': '1.1',
     'parent': '1',
     'name': 'خدمات تقاعدية تثري تجربة المتعاملين',
-    //'value': 50
 }, 
 
-//  {
-//     'id': '1.2',
-//     'parent': '0.0',
-//     'name': 'الاستدامة المالية',
-//     'value': 50
-// },
  
 
 {
@@ -226,7 +219,7 @@ var data = [{
     'value': 5.63
 },
 ];
-
+*/
 // Splice in transparent for the center circle
 Highcharts.getOptions().colors.splice(0, 0, '#f9f9f9');
  //Highcharts.getOptions().colors.splice(1, 0, '#decbe4');
@@ -254,7 +247,7 @@ var chart = Highcharts.chart('container', {
   
     series: [{
         type: "sunburst",
-        data: data,
+        data: 'json/orgnization.json',
         allowDrillToNode: true,
         cursor: 'pointer',
         dataLabels: {
