@@ -230,11 +230,11 @@ Highcharts.getOptions().colors.splice(2, 0, '#ccebc5');
 });  */
  var defaultJson = 'json/orgnization.json';
  jQuery.getJSON(defaultJson, function(_data) {
-               data = _data;
-               renderChart();
+               //data = _data;
+               renderChart(_data);
  });
 
- function renderChart(){
+ function renderChart(data){
               // var chart = new Highcharts.Chart(options);
 			  var chart = Highcharts.chart('container', {
 
