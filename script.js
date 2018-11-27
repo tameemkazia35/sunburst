@@ -228,6 +228,7 @@ Highcharts.getOptions().colors.splice(2, 0, '#ccebc5');
 /* Highcharts.setOptions({
     colors: ['#decbe4', '#decbe4', '#decbe4', '#DDDF00', '#24CBE5', '#64E572', '#FF9655', '#FFF263', '#decbe4']
 });  */
+
  var defaultJson = 'json/orgnization.json';
  jQuery.getJSON(defaultJson, function(_data) {
                //data = _data;
@@ -375,3 +376,12 @@ $(".department-menu li a").click(function(){
 });
     }
   });
+
+
+  function gotoorg(){
+    var defaultJson = 'json/orgnization.json';
+    jQuery.getJSON(defaultJson, function(_data) {
+                  //data = _data;
+                  renderChart(_data);
+    });
+  };
