@@ -368,4 +368,10 @@ $("#btnSvg").on('click', function (event) {
 $(".department-menu li a").click(function(){
     $(this).parents(".dropdown").find('.append-text').html($(this).find('span').text());
     $(this).parents(".dropdown").find('.append-text').val($(this).data('value'));
+    if($(this).find('span').text() == "HR DEPARTMENT"){
+        jQuery.getJSON('json/department-HR.json', function(_data) {
+            //data = _data;
+            renderChart(_data);
+});
+    }
   });
