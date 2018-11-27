@@ -383,5 +383,6 @@ $(".department-menu li a").click(function(){
     jQuery.getJSON(defaultJson, function(_data) {
                   //data = _data;
                   renderChart(_data);
+                  $(this).parents(".dropdown").find('.append-text').val('Objectives');
     });
   };
