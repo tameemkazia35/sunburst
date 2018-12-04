@@ -381,6 +381,13 @@ $(".department-menu li a").click(function(){
             renderChart(_data);
 });
     }
+	
+	if($(this).find('span').text() == "ECD DEPARTMENT"){
+        jQuery.getJSON('json/department-ECD.json', function(_data) {
+            //data = _data;
+            renderChart(_data);
+});
+    }
   });
 
 
