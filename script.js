@@ -389,6 +389,18 @@ $(".department-menu li a").click(function(){
             renderChart(_edcdata);
 });
     }
+	if($(this).find('span').text() == "CHD DEPARTMENT"){
+        jQuery.getJSON('json/department-CHD.json', function(_chddata) {
+            //data = _data;
+            renderChart(_chddata);
+});
+    }
+	if($(this).find('span').text() == "LEG DEPARTMENT"){
+        jQuery.getJSON('json/department-LEG.json', function(_chddata) {
+            //data = _data;
+            renderChart(_chddata);
+});
+    }
   });
 
 
