@@ -375,6 +375,12 @@ $(".department-menu li a").click(function(){
             renderChart(_data);
 });
     }
+	if($(this).find('span').text() == "IT DEPARTMENT"){
+        jQuery.getJSON('json/department-IT.json', function(_data) {
+            //data = _data;
+            renderChart(_data);
+});
+    }
   });
 
 
