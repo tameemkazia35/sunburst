@@ -376,29 +376,59 @@ $(".department-menu li a").click(function(){
 });
     }
 	if($(this).find('span').text() == "IT DEPARTMENT"){
-        jQuery.getJSON('json/department-IT.json', function(_itdata) {
+        jQuery.getJSON('json/department-IT.json', function(_data) {
             //data = _data;
-            renderChart(_itdata);
+            renderChart(_data);
 });
     }
 	
 	
 	if($(this).find('span').text() == "ECD DEPARTMENT"){
-        jQuery.getJSON('json/department-ECD.json', function(_edcdata) {
+        jQuery.getJSON('json/department-ECD.json', function(_data) {
             //data = _data;
-            renderChart(_edcdata);
+            renderChart(_data);
 });
     }
 	if($(this).find('span').text() == "CHD DEPARTMENT"){
-        jQuery.getJSON('json/department-CHD.json', function(_chddata) {
+        jQuery.getJSON('json/department-CHD.json', function(_data) {
             //data = _data;
-            renderChart(_chddata);
+            renderChart(_data);
 });
     }
 	if($(this).find('span').text() == "LEG DEPARTMENT"){
-        jQuery.getJSON('json/department-LEG.json', function(_chddata) {
+        jQuery.getJSON('json/department-LEG.json', function(_data) {
             //data = _data;
-            renderChart(_chddata);
+            renderChart(_data);
+});
+    }
+	if($(this).find('span').text() == "FINANCE DEPARTMENT"){
+        jQuery.getJSON('json/department-Finance.json', function(_data) {
+            //data = _data;
+            renderChart(_data);
+});
+    }
+	if($(this).find('span').text() == "HSE DEPARTMENT"){
+        jQuery.getJSON('json/department-HSE.json', function(_data) {
+            //data = _data;
+            renderChart(_data);
+});
+    }
+	if($(this).find('span').text() == "RSS DEPARTMENT"){
+        jQuery.getJSON('json/department-RSS.json', function(_data) {
+            //data = _data;
+            renderChart(_data);
+});
+    }
+	if($(this).find('span').text() == "BED DEPARTMENT"){
+        jQuery.getJSON('json/department-BED.json', function(_data) {
+            //data = _data;
+            renderChart(_data);
+});
+    }
+	if($(this).find('span').text() == "PC GS DEPARTMENT"){
+        jQuery.getJSON('json/department-PCGS.json', function(_data) {
+            //data = _data;
+            renderChart(_data);
 });
     }
   });
