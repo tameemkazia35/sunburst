@@ -256,7 +256,7 @@ Highcharts.getOptions().colors.splice(2, 0, '#ccebc5');
     series: [{
         type: "sunburst",
         data: data,
-        allowDrillToNode: false,
+        allowDrillToNode: true,
         cursor: 'pointer',
         dataLabels: {
             format: '{point.id}',
