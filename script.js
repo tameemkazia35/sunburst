@@ -256,7 +256,7 @@ Highcharts.getOptions().colors.splice(2, 0, '#ccebc5');
     series: [{
         type: "sunburst",
         data: data,
-        allowDrillToNode: true,
+        allowDrillToNode: false,
         cursor: 'pointer',
         dataLabels: {
             format: '{point.id}',
@@ -376,17 +376,17 @@ $(".department-menu li a").click(function(){
 });
     }
 	if($(this).find('span').text() == "IT DEPARTMENT"){
-        jQuery.getJSON('json/department-IT.json', function(_data) {
+        jQuery.getJSON('json/department-IT.json', function(_itdata) {
             //data = _data;
-            renderChart(_data);
+            renderChart(_itdata);
 });
     }
 	
 	
 	if($(this).find('span').text() == "ECD DEPARTMENT"){
-        jQuery.getJSON('json/department-ECD.json', function(_data) {
+        jQuery.getJSON('json/department-ECD.json', function(_edcdata) {
             //data = _data;
-            renderChart(_data);
+            renderChart(_edcdata);
 });
     }
   });
