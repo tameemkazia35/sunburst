@@ -241,6 +241,14 @@ $(".department-menu li a").click(function(){
             renderChart(_data);
 });
     }
+	
+	if($(this).find('span').text() == "CCD DEPARTMENT"){
+        jQuery.getJSON('json/department-ccd.json', function(_data) {
+            //data = _data;
+            renderChart(_data);
+});
+    }
+	
 	if($(this).find('span').text() == "TPD DEPARTMENT"){
         jQuery.getJSON('json/department-TPD.json', function(_data) {
 			if(TPD_emp.length > 0){
