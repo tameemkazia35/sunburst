@@ -67,6 +67,10 @@ background: transparent !important;
     overflow-y: auto;
 }
 
+.department-emp{
+	display: none;
+}
+
 /* width */
 .department-menu-group .dropdown-menu.show::-webkit-scrollbar {
     width: 5px;
