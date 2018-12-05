@@ -243,7 +243,13 @@ $(".department-menu li a").click(function(){
     }
 	
 	if($(this).find('span').text() == "CCD DEPARTMENT"){
-        jQuery.getJSON('json/department-ccd.json', function(_data) {
+        jQuery.getJSON('json/department-CCD.json', function(_data) {
+            //data = _data;
+            renderChart(_data);
+});
+    }
+	if($(this).find('span').text() == "AAM DEPARTMENT"){
+        jQuery.getJSON('json/department-AAM.json', function(_data) {
             //data = _data;
             renderChart(_data);
 });
