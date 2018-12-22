@@ -254,6 +254,13 @@ $(".department-menu li a").click(function(){
             renderChart(_data);
 });
     }
+
+    if($(this).find('span').text() == "SPP DEPARTMENT"){
+        jQuery.getJSON('json/department-SPP.json', function(_data) {
+            //data = _data;
+            renderChart(_data);
+});
+    }
 	
 	if($(this).find('span').text() == "TPD DEPARTMENT"){
         jQuery.getJSON('json/department-TPD.json', function(_data) {
